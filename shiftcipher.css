@@ -1,0 +1,97 @@
+* {
+    background-color: #0A2239;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: center;     
+    align-items: center;
+    height: 250px;
+    flex-direction: column;
+    margin: 0px 30px;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+.descriptions {
+    display: flex;
+    justify-content: space-around;
+    width: 3 1fr;
+}
+
+.descriptions p {
+    margin: 0px 10px;
+}
+
+b {
+    font-size: 18px;
+    color: #3f826d;
+}
+
+.form {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: space-around;
+    height: 300px;
+    align-items: center;
+}
+
+.form-item {
+  width: 400px;
+}
+
+.boxes {
+    background-color: rgb(255, 255, 255, .9);
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    color: #3f826d;
+}
+
+.boxes:focus {
+    background-color: #3f826d;
+    color: white;
+}
+
+::placeholder {
+    color: #3f826d;
+}
+
+button {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+    color:#3f826d;
+    font-weight: bold;
+    font-size: 16px;
+    border: none;
+}
+
+.radio-form {
+    display: inline-flex;
+    justify-content: space-around;
+}
+
+button:hover {
+    background-color:#3f826d;
+    color: white;
+}
+
+button:active {
+    width: 380px; 
+    padding: 8px;
+}
+
+#result-container {
+    margin-top: 50px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+}
